@@ -5,8 +5,11 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     const password = document.getElementById("password").value;
     const errorMessage = document.getElementById("error-message");
 
-    const validID = "EMP1234"; // Set your fake ID
-    const validPassword = "securepass"; // Set your fake password
+    const validID = "M.McFly1"; // Set your fake ID
+    const validPassword = "Gr8Sc0tt"; // Set your fake password
+
+    const validID = "EMP1234"; //
+    const validID = "securepass"; //
 
     if (employeeID === validID && password === validPassword) {
         window.location.href = "files.html"; // Redirect to the "files" page
