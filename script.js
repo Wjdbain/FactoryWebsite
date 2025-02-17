@@ -5,9 +5,8 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     const password = document.getElementById("password").value;
     const errorMessage = document.getElementById("error-message");
 
-    const validID = "M.McFly1"; // Set your fake ID
-    const validPassword = "Gr8Sc0tt"; // Set your fake password
-
+    const validID = "M.McFly1"; //
+    const validPassword = "Gr8Sc0tt"; //
     const validID = "EMP1234"; //
     const validID = "securepass"; //
 
