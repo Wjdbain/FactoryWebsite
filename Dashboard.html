@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Portal</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your styles -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <h1>Employee Portal</h1>
+            <button id="logoutBtn">Logout</button>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Documents</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <h2>Documents</h2>
+            <div class="files-list">
+                <div class="file-card">
+                    <a href="files/Project_X_Report.pdf" target="_blank">Project X Report (PDF)</a>
+                </div>
+                <div class="file-card">
+                    <a href="files/Employee_Handbook.pdf" target="_blank">Employee Handbook (PDF)</a>
+                </div>
+                <div class="file-card">
+                    <a href="files/Training_Materials.pdf" target="_blank">Training Materials (PDF)</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Logout button functionality
+        document.getElementById("logoutBtn").addEventListener("click", function() {
+            window.location.href = "index.html";  // Redirect to login page
+        });
+    </script>
+</body>
+</html>
