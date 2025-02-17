@@ -5,8 +5,8 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     const password = document.getElementById("password").value;
     const errorMessage = document.getElementById("error-message");
 
-    const validID = "Marty"; //
-    const validPassword = "Biff"; //
+    const validID = "EMP1234"; //
+    const validPassword = "securepass"; //
 
 
     if (employeeID === validID && password === validPassword) {
