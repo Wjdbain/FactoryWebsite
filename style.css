@@ -8,7 +8,7 @@
 /* Body styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #F2F2F2;
+    background-color: #F2F2F2;  /* White */
     color: #333;
 }
 
@@ -101,13 +101,14 @@ button:hover {
 }
 
 .file-card a {
-    color: #2980B9;
+    color: #F2F2F2;
     font-weight: bold;
     text-decoration: none;
 }
 
 .file-card a:hover {
     text-decoration: underline;
+    padding-left: 10px;
 }
 
 /* Responsiveness */
