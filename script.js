@@ -9,7 +9,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     const validPassword = "BiffLover1";
 
     if (employeeID === validID && password === validPassword) {
-        window.location.href = "files.html"; // Redirect to the "files" page
+        window.location.href = "Dashboard.html"; // Redirect to the "dashboard" page
     } else {
         errorMessage.textContent = "Invalid Employee ID or Password.";
     }
