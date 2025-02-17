@@ -7,8 +7,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
 
     const validID = "M.McFly1"; //
     const validPassword = "Gr8Sc0tt"; //
-    const validID = "EMP1234"; //
-    const validID = "securepass"; //
+
 
     if (employeeID === validID && password === validPassword) {
         window.location.href = "files.html"; // Redirect to the "files" page
